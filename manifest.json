@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "readFaster",
+    "description": "To Read faster",
+    "version": "1.0",
+    "icons": {
+        "16": "images/read16.png",
+        "48": "images/read48.png",
+        "128": "images/read128.png"
+    },
+    "content_scripts" : [
+        { 	
+            "matches" : ["<all_urls>"], 
+            "js" : ["read.js"] 
+        }
+    ]
+}
