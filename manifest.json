@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "readFaster",
-    "description": "'ReadFaster' is a Chrome extension that utilizes bionic reading to enhance the readability of webpages. By converting text into a format optimized for faster reading, users can increase their reading speed and efficiency. This innovative approach to reading enables a user to absorb information quickly and effectively, ultimately saving time and improving productivity.",
+    "description": "'ReadFaster' optimizes webpages for faster, efficient reading via bionic techniques, enhancing productivity by increasing speed.",
     "version": "1.0",
     "icons": {
         "16": "images/read16.png",

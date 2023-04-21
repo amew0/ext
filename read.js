@@ -23,13 +23,13 @@ for (let i = 0; i < pTags.length; i++) {
 // Retrieve all the <span> tags on the webspanage
 const spanTags = document.getElementsByTagName('span');
 
-// Loospan through each <span> tag and modify its content
+// Loops through each <span> tag and modify its content
 for (let i = 0; i < spanTags.length; i++) {
   const spanTag = spanTags[i];
-  const words = spanTag.textContent.sspanlit(' ');
+  const words = spanTag.textContent.spanlit(' ');
   let boldText = '';
 
-  // Loospan through each word in the <span> tag and make half its length bold
+  // Loops through each word in the <span> tag and make half its length bold
   for (let j = 0; j < words.length; j++) {
     const word = words[j];
     const length = word.length;
